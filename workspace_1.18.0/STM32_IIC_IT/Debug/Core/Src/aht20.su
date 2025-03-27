@@ -1,0 +1,5 @@
+../Core/Src/aht20.c:13:6:AHT20_Init	24	static
+../Core/Src/aht20.c:33:6:AHT20_Measure	8	static
+../Core/Src/aht20.c:42:6:ATH20_Get	24	static
+../Core/Src/aht20.c:65:6:HAL_I2C_MasterTxCpltCallback	16	static
+../Core/Src/aht20.c:73:6:HAL_I2C_MasterRxCpltCallback	16	static

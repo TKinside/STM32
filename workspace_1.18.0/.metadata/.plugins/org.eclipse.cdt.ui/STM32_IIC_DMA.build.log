@@ -1,0 +1,10 @@
+15:40:03 **** Incremental Build of configuration Debug for project STM32_IIC_DMA ****
+make -j16 all 
+arm-none-eabi-size  STM32_IIC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41932	    468	   2060	  44460	   adac	STM32_IIC_DMA.elf
+Finished building: default.size.stdout
+ 
+
+15:40:04 Build Finished. 0 errors, 0 warnings. (took 192ms)
+

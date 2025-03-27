@@ -1,0 +1,6 @@
+"F:\CLion\CLion 2024.3.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S F:\STM32CubeIDE\workspace_1.18.0\STM32_IIC_IT -B F:\STM32CubeIDE\workspace_1.18.0\STM32_IIC_IT\cmake-build-debug
+CMake Error at CMakeLists.txt:41:
+  Parse error.  Expected a newline, got identifier with text "s".
+
+
+-- Configuring incomplete, errors occurred!

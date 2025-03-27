@@ -1,0 +1,55 @@
+21:38:11 **** Incremental Build of configuration Debug for project STM32_IIC_IT ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-g++ -o "STM32_IIC_IT.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\STM32CubeIDE\workspace_1.18.0\STM32_IIC_IT\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_IIC_IT.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+F:/STM32CubeIDE_1.18.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o:F:/STM32CubeIDE/workspace_1.18.0/STM32_IIC_IT/Debug/../Core/Inc/aht20.h:24: multiple definition of `AHT20_STATE'; ./Core/Src/aht20.o:F:/STM32CubeIDE/workspace_1.18.0/STM32_IIC_IT/Debug/../Core/Inc/aht20.h:24: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:88: STM32_IIC_IT.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+22:00:44 **** Incremental Build of configuration Debug for project STM32_IIC_IT ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/aht20.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/aht20.d" -MT"Core/Src/aht20.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/aht20.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/aht20.c: In function 'HAL_I2C_MasterRxCpltCallback':
+../Core/Src/aht20.c:75:9: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   75 |     if (hi2c=&hi2c1){
+      |         ^~~~
+arm-none-eabi-g++ -o "STM32_IIC_IT.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\STM32CubeIDE\workspace_1.18.0\STM32_IIC_IT\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_IIC_IT.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32_IIC_IT.elf
+ 
+arm-none-eabi-size  STM32_IIC_IT.elf 
+arm-none-eabi-objdump -h -S STM32_IIC_IT.elf  > "STM32_IIC_IT.list"
+   text	   data	    bss	    dec	    hex	filename
+  42156	    476	   2068	  44700	   ae9c	STM32_IIC_IT.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32_IIC_IT.list
+ 
+22:10:41 **** Incremental Build of configuration Debug for project STM32_IIC_IT ****
+make -j16 all 
+arm-none-eabi-size  STM32_IIC_IT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  42156	    476	   2068	  44700	   ae9c	STM32_IIC_IT.elf
+Finished building: default.size.stdout
+ 
+22:13:05 **** Incremental Build of configuration Debug for project STM32_IIC_IT ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/aht20.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/aht20.d" -MT"Core/Src/aht20.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/aht20.o"
+arm-none-eabi-g++ -o "STM32_IIC_IT.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\STM32CubeIDE\workspace_1.18.0\STM32_IIC_IT\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_IIC_IT.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32_IIC_IT.elf
+ 
+arm-none-eabi-size  STM32_IIC_IT.elf 
+arm-none-eabi-objdump -h -S STM32_IIC_IT.elf  > "STM32_IIC_IT.list"
+   text	   data	    bss	    dec	    hex	filename
+  42148	    476	   2068	  44692	   ae94	STM32_IIC_IT.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32_IIC_IT.list
+ 
+22:27:01 **** Incremental Build of configuration Debug for project STM32_IIC_IT ****
+make -j16 all 
+arm-none-eabi-size  STM32_IIC_IT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  42148	    476	   2068	  44692	   ae94	STM32_IIC_IT.elf
+Finished building: default.size.stdout
+ 

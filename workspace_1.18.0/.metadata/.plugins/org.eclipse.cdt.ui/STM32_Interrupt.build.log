@@ -1,0 +1,10 @@
+16:44:10 **** Incremental Build of configuration Debug for project STM32_Interrupt ****
+make -j16 all 
+arm-none-eabi-size  STM32_Interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5000	     12	   1572	   6584	   19b8	STM32_Interrupt.elf
+Finished building: default.size.stdout
+ 
+
+16:44:10 Build Finished. 0 errors, 0 warnings. (took 233ms)
+

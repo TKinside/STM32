@@ -1,0 +1,3 @@
+F:/STM32CubeIDE/workspace_1.18.0/STM32_IIC/cmake-build-debug/CMakeFiles/STM32_IIC.elf.dir
+F:/STM32CubeIDE/workspace_1.18.0/STM32_IIC/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/STM32CubeIDE/workspace_1.18.0/STM32_IIC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

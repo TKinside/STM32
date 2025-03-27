@@ -1,0 +1,11 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MCU_Lesson Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Light_LED Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Switch Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM32_Interrupt Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_UART Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_BLINK Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_UART_Interrupt Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_UART_DMA Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM32_BlueToothLowEnergy Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM32_IIC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM32_IIC_DMA Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM32_IIC_IT Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_BLINK\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_BLINK\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Light_LED\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Light_LED\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MCU_Lesson\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MCU_Lesson\ Debug/activeLaunchTarget=null\:---
